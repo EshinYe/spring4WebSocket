@@ -16,7 +16,7 @@
 	default-autowire="byName">
 	<!-- @Autowired等注解驱动 -->
 	<context:annotation-config />
-	
+	<!-- SpringMVC 注解驱动 -->
 	<mvc:annotation-driven/>
 	
 	<context:component-scan base-package="websocket"/>
